@@ -1,11 +1,18 @@
---https://raw.githubusercontent.com/x89629689234/x111/main/_doors0001
 
-local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
+    local validkeys={"278712854587468737169047694.D4RK_HUB$9261637890_U892i89169O+PRIVATE_USER","QZwsgXUCNGP0DtMGbY.D4RK_HUB$iZyTvQSQXB1lRDgSRQDnw167E","mfQ8xjwZUsG+Qn2D1VQf.D4RK_HUB$SGMbYElF7IGIXC5H5prpPyGTkh5CDa9nB3tb","nTOtmnRg7aiarUab372D8Dl5MgvYO.D4RK_HUB$09RWdHk3rUAolzRxQBGHjOH0FeOa"}
+        if table.find(validkeys, _G.Key) then
+        has_access187462084713 = true
+        end
+        if has_access187462084713 == nil then
+            --error("Incorrect Key.")
+			game.Players.LocalPlayer:Kick("Incorrect Key.")
+        end
+		 local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shlexware/Orion/main/source")))()
     local Window =
         OrionLib:MakeWindow(
         {
             IntroText = "D4rk Hub - DOORS",
-            Name = "D4rk Hub - DOORS v4",
+            Name = "D4rk Hub - DOORS",
             HidePremium = false,
             SaveConfig = true,
             ConfigFolder = "D4RKHUB_DOORS"
@@ -636,3 +643,4 @@ local OrionLib = loadstring(game:HttpGet(("https://raw.githubusercontent.com/shl
     OrionLib:Init()
     
     task.wait(2)
+    
