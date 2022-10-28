@@ -1,0 +1,5 @@
+while true do
+	wait(5)
+local Humanoid = game:GetService("Players").LocalPlayer.Character.Humanoid
+Humanoid.WalkSpeed = 50
+end
