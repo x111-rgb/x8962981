@@ -3,6 +3,8 @@
 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors%20Entity%20Spawner/Source.lua"))()
           -- Create entity
           local entity = Creator.createEntity({
+	  CustomName = "A-60",
+	  KillRange = 10,
               Model = 11448863414,
               Speed = 200,
               DelayTime = 3,
