@@ -58,6 +58,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
           end
   
           entity.Debug.OnEntityDespawned = function(entityModel)
+	  if getgenv().death==false then
 		      
               getgenv().Title = "Out of many Rebounds" --Title Here
               getgenv().Description = "Might Come back or not" --Description Here
@@ -102,7 +103,9 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
                   v.BadgeId = getgenv().BadgeId
                   v.Category = getgenv().Category
               end
+	      
               Unlock(nil,"Join")
+	      end
           end
           ---------------------------
   
