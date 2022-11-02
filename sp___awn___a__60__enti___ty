@@ -4,7 +4,6 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
           -- Create entity
           local entity = Creator.createEntity({
 	  CustomName = "A-60",
-	  KillRange = 10,
               Model = 11448863414,
               Speed = 200,
               DelayTime = 3,
