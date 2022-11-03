@@ -17,7 +17,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Regul
               Cycles = {
                   Min = 2,
                   Max = 4,
-                  WaitTime = 0.05,
+                  WaitTime = 3.5,
               },
               CamShake = {
                   true,
